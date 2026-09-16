@@ -4,6 +4,7 @@ body {
     height: 100%;
     color: #EAFFFD;
     font-size: large;
+    display: flexbox;
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -63,6 +64,57 @@ body {
 
 .container {
     animation: transitionIn 0.35s;
+}
+
+.main {
+    scale: 1.3;
+    padding: 123px;
+    display: grid;
+    justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  min-width: 600px;
+  margin: 30px;
+}
+
+img {
+border-radius: 25px;
+border: #503D7B;
+border-width: 5px;
+border-style: solid;
+}
+
+h5 {
+    font-style: italic;
+}
+
+button {
+    margin: 7px;
+    height: 80px;
+    width: px;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: #C09BD8;
+    border: solid;
+    border-width: 5px;
+    border-color: #111028;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #EAFFFD;
+    transition: 0.1s;
+}
+
+button:active {
+    transform: scale(1);
+    background-color: #a885bf;
 }
 
 @keyframes transitionIn {
