@@ -64,6 +64,13 @@ background-color: #0d0511;
     animation: transitionIn 0.35s;
 }
 
+.centered {
+    margin: 25px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
 .main {
     padding: 123px;
     display: grid;
@@ -82,6 +89,25 @@ background-color: #0d0511;
 }
 .purple {
     color: #C09BD8;
+}
+
+.imgbtn:hover {
+transform: scale(.95);
+filter: brightness(.66);
+}
+
+.imgbtn:active{
+    filter: brightness(.33);
+}
+
+a {
+    color: #EAFFFD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C09BD8;
+    font-style: italic;
 }
 
 p {
